@@ -135,6 +135,7 @@ namespace AvatarLogger
             
             //Locate the log file
             string AvatarFile = "FoxLogger\\Avatars.txt";
+            
             //If the log file does not exist create it and append the credits of the mod
             if (!File.Exists(AvatarFile))
             { File.AppendAllText(AvatarFile, "Mod By Nicky Blackburn\n"); }
